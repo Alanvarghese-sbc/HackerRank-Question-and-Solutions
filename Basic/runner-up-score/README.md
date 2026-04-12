@@ -39,8 +39,8 @@ print(sorted(set(arr))[-2])
 ---
 
 ## 📂 Files
-  solution_builtin.py → Pythonic approach using built-ins
-  solution_manual.py → Core logic without built-ins
+  - solution_builtin.py → Pythonic approach using built-ins
+  - solution_manual.py → Core logic without built-ins
 
 ---
 
