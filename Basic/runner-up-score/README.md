@@ -30,26 +30,29 @@ Given a list of scores, find the runner-up (second highest) score.
 
 ```python
 print(sorted(set(arr))[-2])
-
----
+```
 
 ### 2. Manual Approach (Without Built-ins)
-Find maximum value
-Traverse again to find second maximum (excluding max)
+  - Find maximum value
+  - Traverse again to find second maximum (excluding max)
+
 📂 Files
-solution_builtin.py → Pythonic approach using built-ins
-solution_manual.py → Core logic without built-ins
+  solution_builtin.py → Pythonic approach using built-ins
+  solution_manual.py → Core logic without built-ins
+  
 💡 Key Concepts
-Lists and sets
-Sorting
-Iteration
-Edge case handling
+  - Lists and sets
+  - Sorting
+  - Iteration
+  - Edge case handling
+
 ⚠️ Edge Cases
-All elements same → no runner-up
-Negative values
-Large input size
+  - All elements same → no runner-up
+  - Negative values
+  - Large input size
+    
 🎯 Learning Outcome
-Understanding how to handle duplicates
-Writing efficient Python code
-Comparing built-in vs manual solutions
+  - Understanding how to handle duplicates
+ - Writing efficient Python code
+- Comparing built-in vs manual solutions
 
