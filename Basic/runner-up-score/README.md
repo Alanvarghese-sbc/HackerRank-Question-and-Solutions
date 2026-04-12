@@ -12,12 +12,12 @@ Given a list of scores, find the runner-up (second highest) score.
 ## 🧠 Example
 
 ### Input
-5
-2 3 6 6 5
+  5
+  2 3 6 6 5
 
 ### Output
-
-
+   5
+   
 ---
 
 ## 🚀 Approaches
@@ -38,13 +38,13 @@ print(sorted(set(arr))[-2])
 
 ---
 
-##📂 Files
+## 📂 Files
   solution_builtin.py → Pythonic approach using built-ins
   solution_manual.py → Core logic without built-ins
 
 ---
 
-##💡 Key Concepts
+## 💡 Key Concepts
   - Lists and sets
   - Sorting
   - Iteration
@@ -52,15 +52,15 @@ print(sorted(set(arr))[-2])
 
 ---
 
-##⚠️ Edge Cases
+## ⚠️ Edge Cases
   - All elements same → no runner-up
   - Negative values
   - Large input size
 
 ---
     
-##🎯 Learning Outcome
+## 🎯 Learning Outcome
   - Understanding how to handle duplicates
- - Writing efficient Python code
-- Comparing built-in vs manual solutions
+   - Writing efficient Python code
+  - Comparing built-in vs manual solutions
 
